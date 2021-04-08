@@ -11,9 +11,9 @@ library("precrec")
 # Outliers removed: IL26
 ####################################################################
 
-peaks <- read.csv("01.metabolic_candidate_selection/genotype_and_peak_data.csv")
+peaks <- read.csv("genotype_and_peak_data.csv")
 
-sample_info <- read.csv("01.metabolic_candidate_selection/sample_genotype_phenotype.csv")
+sample_info <- read.csv("sample_genotype_phenotype.csv")
 
 
 # finding the row index of IL27_6
